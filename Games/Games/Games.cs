@@ -32,5 +32,12 @@ namespace Games
                 Application.Exit();
             }
         }
+
+        private void btnPuzzle_Click(object sender, EventArgs e)
+        {
+            frmPuzzle frm = new frmPuzzle();
+            this.Hide();
+            frm.Show();
+        }
     }
 }

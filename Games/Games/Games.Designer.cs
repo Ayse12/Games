@@ -28,25 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnSnake = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Games));
             this.label1 = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnPuzzle = new System.Windows.Forms.Button();
+            this.btnSnake = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // btnSnake
-            // 
-            this.btnSnake.BackColor = System.Drawing.Color.Transparent;
-            this.btnSnake.BackgroundImage = global::Games.Properties.Resources.snake;
-            this.btnSnake.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSnake.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnSnake.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnSnake.ImageKey = "(none)";
-            this.btnSnake.Location = new System.Drawing.Point(23, 23);
-            this.btnSnake.Name = "btnSnake";
-            this.btnSnake.Size = new System.Drawing.Size(209, 166);
-            this.btnSnake.TabIndex = 1;
-            this.btnSnake.UseVisualStyleBackColor = false;
-            this.btnSnake.Click += new System.EventHandler(this.btnSnake_Click);
             // 
             // label1
             // 
@@ -74,6 +62,47 @@
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label2.Location = new System.Drawing.Point(271, 209);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(199, 35);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "Puzzle Game";
+            // 
+            // btnPuzzle
+            // 
+            this.btnPuzzle.BackColor = System.Drawing.Color.Transparent;
+            this.btnPuzzle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPuzzle.BackgroundImage")));
+            this.btnPuzzle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnPuzzle.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnPuzzle.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnPuzzle.ImageKey = "(none)";
+            this.btnPuzzle.Location = new System.Drawing.Point(277, 23);
+            this.btnPuzzle.Name = "btnPuzzle";
+            this.btnPuzzle.Size = new System.Drawing.Size(193, 183);
+            this.btnPuzzle.TabIndex = 8;
+            this.btnPuzzle.UseVisualStyleBackColor = false;
+            this.btnPuzzle.Click += new System.EventHandler(this.btnPuzzle_Click);
+            // 
+            // btnSnake
+            // 
+            this.btnSnake.BackColor = System.Drawing.Color.Transparent;
+            this.btnSnake.BackgroundImage = global::Games.Properties.Resources.snake;
+            this.btnSnake.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSnake.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSnake.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnSnake.ImageKey = "(none)";
+            this.btnSnake.Location = new System.Drawing.Point(23, 23);
+            this.btnSnake.Name = "btnSnake";
+            this.btnSnake.Size = new System.Drawing.Size(198, 183);
+            this.btnSnake.TabIndex = 1;
+            this.btnSnake.UseVisualStyleBackColor = false;
+            this.btnSnake.Click += new System.EventHandler(this.btnSnake_Click);
+            // 
             // Games
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -81,6 +110,8 @@
             this.BackgroundImage = global::Games.Properties.Resources.Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(926, 713);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnPuzzle);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSnake);
@@ -97,6 +128,8 @@
         private System.Windows.Forms.Button btnSnake;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnPuzzle;
     }
 }
 
