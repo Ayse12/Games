@@ -1,12 +1,11 @@
 D:\Proje\Games\Games\Games\bin\Debug\Games.exe.config
 D:\Proje\Games\Games\Games\bin\Debug\Games.exe
 D:\Proje\Games\Games\Games\bin\Debug\Games.pdb
-D:\Proje\Games\Games\Games\obj\Debug\Games.csprojAssemblyReference.cache
+D:\Proje\Games\Games\Games\obj\Debug\Games.frmPuzzle.resources
+D:\Proje\Games\Games\Games\obj\Debug\Games.Snake.frmSnake.resources
+D:\Proje\Games\Games\Games\obj\Debug\Games.Games.resources
 D:\Proje\Games\Games\Games\obj\Debug\Games.Properties.Resources.resources
 D:\Proje\Games\Games\Games\obj\Debug\Games.csproj.GenerateResource.cache
 D:\Proje\Games\Games\Games\obj\Debug\Games.csproj.CoreCompileInputs.cache
 D:\Proje\Games\Games\Games\obj\Debug\Games.exe
 D:\Proje\Games\Games\Games\obj\Debug\Games.pdb
-D:\Proje\Games\Games\Games\obj\Debug\Games.Games.resources
-D:\Proje\Games\Games\Games\obj\Debug\Games.Snake.frmSnake.resources
-D:\Proje\Games\Games\Games\obj\Debug\Games.frmPuzzle.resources

@@ -173,9 +173,9 @@ namespace Games.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap PicPuzzle {
+        internal static System.Drawing.Bitmap Null {
             get {
-                object obj = ResourceManager.GetObject("PicPuzzle", resourceCulture);
+                object obj = ResourceManager.GetObject("Null", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -186,6 +186,16 @@ namespace Games.Properties {
         internal static System.Drawing.Bitmap puzzle {
             get {
                 object obj = ResourceManager.GetObject("puzzle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PuzzlePic {
+            get {
+                object obj = ResourceManager.GetObject("PuzzlePic", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
