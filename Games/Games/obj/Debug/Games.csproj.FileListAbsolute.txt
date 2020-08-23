@@ -9,3 +9,4 @@ D:\Proje\Games\Games\Games\obj\Debug\Games.exe
 D:\Proje\Games\Games\Games\obj\Debug\Games.pdb
 D:\Proje\Games\Games\Games\obj\Debug\Games.Games.resources
 D:\Proje\Games\Games\Games\obj\Debug\Games.Snake.frmSnake.resources
+D:\Proje\Games\Games\Games\obj\Debug\Games.frmPuzzle.resources
