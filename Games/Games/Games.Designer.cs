@@ -34,6 +34,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnPuzzle = new System.Windows.Forms.Button();
             this.btnSnake = new System.Windows.Forms.Button();
+            this.btnMaze = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -67,7 +69,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label2.Location = new System.Drawing.Point(271, 209);
+            this.label2.Location = new System.Drawing.Point(247, 209);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(199, 35);
             this.label2.TabIndex = 9;
@@ -81,9 +83,9 @@
             this.btnPuzzle.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnPuzzle.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnPuzzle.ImageKey = "(none)";
-            this.btnPuzzle.Location = new System.Drawing.Point(277, 23);
+            this.btnPuzzle.Location = new System.Drawing.Point(253, 23);
             this.btnPuzzle.Name = "btnPuzzle";
-            this.btnPuzzle.Size = new System.Drawing.Size(193, 183);
+            this.btnPuzzle.Size = new System.Drawing.Size(193, 173);
             this.btnPuzzle.TabIndex = 8;
             this.btnPuzzle.UseVisualStyleBackColor = false;
             this.btnPuzzle.Click += new System.EventHandler(this.btnPuzzle_Click);
@@ -98,10 +100,36 @@
             this.btnSnake.ImageKey = "(none)";
             this.btnSnake.Location = new System.Drawing.Point(23, 23);
             this.btnSnake.Name = "btnSnake";
-            this.btnSnake.Size = new System.Drawing.Size(198, 183);
+            this.btnSnake.Size = new System.Drawing.Size(188, 173);
             this.btnSnake.TabIndex = 1;
             this.btnSnake.UseVisualStyleBackColor = false;
             this.btnSnake.Click += new System.EventHandler(this.btnSnake_Click);
+            // 
+            // btnMaze
+            // 
+            this.btnMaze.BackColor = System.Drawing.Color.Transparent;
+            this.btnMaze.BackgroundImage = global::Games.Properties.Resources.maze;
+            this.btnMaze.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnMaze.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnMaze.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnMaze.ImageKey = "(none)";
+            this.btnMaze.Location = new System.Drawing.Point(483, 23);
+            this.btnMaze.Name = "btnMaze";
+            this.btnMaze.Size = new System.Drawing.Size(193, 173);
+            this.btnMaze.TabIndex = 8;
+            this.btnMaze.UseVisualStyleBackColor = false;
+            this.btnMaze.Click += new System.EventHandler(this.btnMaze_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label3.Location = new System.Drawing.Point(496, 209);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(180, 35);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Maze Game";
             // 
             // Games
             // 
@@ -109,8 +137,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Games.Properties.Resources.Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(926, 713);
+            this.ClientSize = new System.Drawing.Size(844, 713);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnMaze);
             this.Controls.Add(this.btnPuzzle);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label1);
@@ -130,6 +160,8 @@
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnPuzzle;
+        private System.Windows.Forms.Button btnMaze;
+        private System.Windows.Forms.Label label3;
     }
 }
 

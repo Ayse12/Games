@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmMaze.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMaze.Designer.cs">
+      <DependentUpon>frmMaze.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPuzzle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmMaze.resx">
+      <DependentUpon>frmMaze.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPuzzle.resx">
       <DependentUpon>frmPuzzle.cs</DependentUpon>
     </EmbeddedResource>
@@ -142,6 +151,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maze.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maze %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -39,5 +39,12 @@ namespace Games
             this.Hide();
             frm.Show();
         }
+
+        private void btnMaze_Click(object sender, EventArgs e)
+        {
+            frmMaze frm = new frmMaze();
+            this.Hide();
+            frm.Show();
+        }
     }
 }

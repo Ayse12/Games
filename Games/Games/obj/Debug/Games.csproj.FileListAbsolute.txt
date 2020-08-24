@@ -9,3 +9,5 @@ D:\Proje\Games\Games\Games\obj\Debug\Games.csproj.GenerateResource.cache
 D:\Proje\Games\Games\Games\obj\Debug\Games.csproj.CoreCompileInputs.cache
 D:\Proje\Games\Games\Games\obj\Debug\Games.exe
 D:\Proje\Games\Games\Games\obj\Debug\Games.pdb
+D:\Proje\Games\Games\Games\obj\Debug\Games.csprojAssemblyReference.cache
+D:\Proje\Games\Games\Games\obj\Debug\Games.frmMaze.resources
