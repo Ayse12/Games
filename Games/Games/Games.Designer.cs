@@ -36,6 +36,8 @@
             this.btnSnake = new System.Windows.Forms.Button();
             this.btnMaze = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnTicTac = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -131,15 +133,43 @@
             this.label3.TabIndex = 9;
             this.label3.Text = "Maze Game";
             // 
+            // btnTicTac
+            // 
+            this.btnTicTac.BackColor = System.Drawing.Color.Transparent;
+            this.btnTicTac.BackgroundImage = global::Games.Properties.Resources.TicTacToe;
+            this.btnTicTac.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnTicTac.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnTicTac.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnTicTac.ImageKey = "(none)";
+            this.btnTicTac.Location = new System.Drawing.Point(729, 23);
+            this.btnTicTac.Name = "btnTicTac";
+            this.btnTicTac.Size = new System.Drawing.Size(193, 173);
+            this.btnTicTac.TabIndex = 8;
+            this.btnTicTac.UseVisualStyleBackColor = false;
+            this.btnTicTac.Click += new System.EventHandler(this.btnTicTac_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label4.Location = new System.Drawing.Point(697, 209);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(265, 35);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Tic Tac Toe Game";
+            // 
             // Games
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Games.Properties.Resources.Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(844, 713);
+            this.ClientSize = new System.Drawing.Size(974, 713);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnTicTac);
             this.Controls.Add(this.btnMaze);
             this.Controls.Add(this.btnPuzzle);
             this.Controls.Add(this.btnExit);
@@ -162,6 +192,8 @@
         private System.Windows.Forms.Button btnPuzzle;
         private System.Windows.Forms.Button btnMaze;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnTicTac;
+        private System.Windows.Forms.Label label4;
     }
 }
 

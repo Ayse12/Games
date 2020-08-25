@@ -58,6 +58,12 @@
     <Compile Include="frmPuzzle.Designer.cs">
       <DependentUpon>frmPuzzle.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTicTacToe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTicTacToe.Designer.cs">
+      <DependentUpon>frmTicTacToe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Games.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmSnake.resx">
       <DependentUpon>frmSnake.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTicTacToe.resx">
+      <DependentUpon>frmTicTacToe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Games.resx">
       <DependentUpon>Games.cs</DependentUpon>
@@ -157,6 +166,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\maze %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TicTacToe.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

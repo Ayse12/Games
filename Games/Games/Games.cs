@@ -46,5 +46,13 @@ namespace Games
             this.Hide();
             frm.Show();
         }
+
+        private void btnTicTac_Click(object sender, EventArgs e)
+        {
+            frmTicTacToe frm = new frmTicTacToe();
+            this.Hide();
+            frm.Show();
+        }
+
     }
 }
